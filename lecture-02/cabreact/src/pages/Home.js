@@ -1,4 +1,4 @@
-import { Box, Card, Chip, Typography } from "@material-ui/core";
+import { Box, Chip, Typography } from "@material-ui/core";
 import SimpleMap from "../components/GoogleMapBox";
 import AccessTimeIcon from "@material-ui/icons/AccessTime";
 export default function Home() {
@@ -97,7 +97,7 @@ export default function Home() {
                   borderRadius: "8px",
                 }}
               >
-                <img src={service.src} width="100px" />
+                <img alt={service.title} src={service.src} width="100px" />
               </Box>
               <Typography
                 style={{

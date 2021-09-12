@@ -8,12 +8,10 @@ import {
   makeStyles,
 } from "@material-ui/core";
 import { useContext } from "react";
-import { useHistory } from "react-router";
 import { UserContext } from "../App";
 import { useSnackbar } from 'notistack';
 
 export default function Help() {
-  const history = useHistory();
   const { enqueueSnackbar } = useSnackbar();
   const helpOptions = [
     {
