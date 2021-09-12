@@ -13,7 +13,6 @@ export class UsersController {
   }
 
   @Get("/:uid")
-  @UseGuards(AuthGuard('firebase'))
   fetchUser(@Param('uid') uid) : Promise<any> {
     return this.usersService.fetchUser(uid);
   }

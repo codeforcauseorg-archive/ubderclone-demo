@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 var firebaseConfig = {
-  apiKey: "AIzaSyDuVisqDKCWDCXwVY4hmU9338fpqtW4NvA",
-  authDomain: "mernapril-9c01f.firebaseapp.com",
-  projectId: "mernapril-9c01f",
-  storageBucket: "mernapril-9c01f.appspot.com",
-  messagingSenderId: "393475372583",
-  appId: "1:393475372583:web:c858a5ea97a3e298e50002",
+  apiKey: "AIzaSyC0lYipSAtKVnfakVm_vytJ4bmM9GKAJZo",
+  authDomain: "unac-uber.firebaseapp.com",
+  projectId: "unac-uber",
+  storageBucket: "unac-uber.appspot.com",
+  messagingSenderId: "724587103317",
+  appId: "1:724587103317:web:f03e4efa115549b13280dc"
 };
 
 firebase.initializeApp(firebaseConfig);

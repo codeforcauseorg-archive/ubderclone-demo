@@ -63,7 +63,7 @@ export default function Routes() {
       <Route path="/profile" exact>
         <AuthGaurd>
           <PassiveLayout title={"Edit Profile"}>
-            <Settings />
+            <Profile />
           </PassiveLayout>
         </AuthGaurd>
       </Route>

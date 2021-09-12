@@ -9,7 +9,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      '',
+      'mongodb+srv://anujgarg:anujgarg@unacad.8b0lx.mongodb.net/myuber?retryWrites=true&w=majority',
     ),
     UsersModule,
     FirebaseModule,
